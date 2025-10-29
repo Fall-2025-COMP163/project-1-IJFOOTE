@@ -47,8 +47,7 @@ def calculate_stats(character_class, level):
 
 
 def create_character(name, character_class, level=1):
-    character_class = character_class.lower()    
-    classes = ['warrior', 'cleric', 'mage', 'rogue']
+    classes = ['warrior','Warrior', 'cleric','cleric','Mage','mage', 'Rogue','rogue']
     if character_class not in classes:
         print('Invalid character class: ' + character_class)
         return None
