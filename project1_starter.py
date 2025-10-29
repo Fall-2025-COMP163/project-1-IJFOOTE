@@ -10,19 +10,19 @@ import os
 gold = 0
 
 def calculate_stats(character_class, level):
-    if character_class == 'warrior':
+    if character_class == 'Warrior':
         strength = 10
         magic = 2
         health = 10
-    elif character_class == 'cleric':
+    elif character_class == 'Cleric':
         strength = 5
         magic = 8
         health = 8
-    elif character_class == 'mage':
+    elif character_class == 'Mage':
         strength = 3
         magic = 10
         health = 6
-    elif character_class == 'rogue':
+    elif character_class == 'Rogue':
         strength = 6
         magic = 7
         health = 3
